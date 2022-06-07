@@ -46,14 +46,14 @@ app.get('/.well-known/stellar.toml', (req, res, next) => {
     })
     // endpoint
 
-    // app.get('/auth', (req,res)=>{
-    //   res.json({
-    //     "account":"GCX4SATKSYRTNELBFPH6Q4DC2QMFIZRPSYBBGWFGUE4PITSITZZ3D4SK",
-    //     "home_domain":"stellartomll.herokuapp.com",
-    //     "client_domain":""
+    app.get('/auth', (req,res)=>{
+      res.json({
+        "account":"GCX4SATKSYRTNELBFPH6Q4DC2QMFIZRPSYBBGWFGUE4PITSITZZ3D4SK",
+        "home_domain":"stellartomll.herokuapp.com",
+        "client_domain":""
 
-    //   })
-    // })
+      })
+    })
 
 app.get('/', (req, res) =>{
     res.send('hello world')
