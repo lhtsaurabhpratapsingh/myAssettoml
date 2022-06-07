@@ -55,12 +55,9 @@ app.get('/.well-known/stellar.toml', (req, res, next) => {
       })
     })
 
-    app.get('/FEDERATION_SERVER', (req, res) =>{
+    app.get('/hello', (req, res) =>{
         res.json({
-            "stellar_address": "sp@gmail.comlastasset.herokuapp.com",
-            "account_id": "GCIBUCGPOHWMMMFPFTDWBSVHQRT4DIBJ7AD6BZJYDITBK2LCVBYW7HUQ",
-            "memo_type": "id",
-            "memo": "123"
+           key: "hello",
           })
 
     })
