@@ -24,13 +24,13 @@ app.get('/.well-known/stellar.toml', (req, res, next) => {
   app.get('/sep24/info',(req,res)=>{
     res.json({
         "deposit": {
-            "stellarTOML": {
+            "LHTASSET": {
                 "enabled": true,
                 "fee_fixed": 1.0
             }
         },
         "withdraw": {
-            "stellarTOML": {
+            "LHTASSET": {
                 "enabled": true,
                 "fee_fixed": 1.0
             }
@@ -49,7 +49,7 @@ app.get('/.well-known/stellar.toml', (req, res, next) => {
     app.get('/auth', (req,res)=>{
       res.json({
         "account":"GCX4SATKSYRTNELBFPH6Q4DC2QMFIZRPSYBBGWFGUE4PITSITZZ3D4SK",
-        "home_domain":"stellartomll.herokuapp.com",
+        "home_domain":"lastasset.herokuapp.com",
         "client_domain":""
 
       })
