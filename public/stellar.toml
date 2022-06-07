@@ -1,0 +1,21 @@
+ACCOUNTS = [ "GCWQW2BY535VP3CIUNTZNQWKNKTZIJ7DTFGFL54G2RSPKS4Y77JG4RYX", "GCRO75HUU4TGKNW5XD2Z7Y6G4QZP5BGKCSRMZGNFX44GRO7II4FA7EKB" ]
+SIGNING_KEY = "GCWQW2BY535VP3CIUNTZNQWKNKTZIJ7DTFGFL54G2RSPKS4Y77JG4RYX"
+NETWORK_PASSPHRASE = "Test SDF Network ; September 2022"
+TRANSFER_SERVER = "https://stellartomll.herokuapp.com/sep6"
+TRANSFER_SERVER_SEP0024 = "https://stellartomll.herokuapp.com/sep24"
+WEB_AUTH_ENDPOINT = "https://stellartomll.herokuapp.com/auth"
+KYC_SERVER = "https://stellartomll.herokuapp.com/kyc"
+DIRECT_PAYMENT_SERVER = "https://stellartomll.herokuapp.com/sep31"
+QUOTE_SERVER = "https://stellartomll.herokuapp.com/sep38"
+[[CURRENCIES]]
+code = "LHTASSET"
+issuer = "GCWQW2BY535VP3CIUNTZNQWKNKTZIJ7DTFGFL54G2RSPKS4Y77JG4RYX"
+status = "test"
+is_asset_anchored = false
+desc = "Stellar Reference Token (SRT) is an asset issued on testnet and is used as an anchored asset for this reference server for demonstration and testing purposes."
+
+[DOCUMENTATION]
+ORG_NAME = "Stellar Development Foundation"
+ORG_URL = "https://stellar.org"
+ORG_DESCRIPTION = "The Stellar Development Foundation (SDF) is a non-profit organization whose mission is to create equitable access to the global financial system."
+ORG_GITHUB = "stellar"
