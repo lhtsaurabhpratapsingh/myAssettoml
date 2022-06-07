@@ -55,6 +55,17 @@ app.get('/.well-known/stellar.toml', (req, res, next) => {
       })
     })
 
+    app.get('/FEDERATION_SERVER?q=<string to look up>&type=<name,id,txid>', (req, res) =>{
+        res.json({
+            "stellar_address": "bob*stellar.org",
+            "account_id": "GCIBUCGPOHWMMMFPFTDWBSVHQRT4DIBJ7AD6BZJYDITBK2LCVBYW7HUQ",
+            "memo_type": "id",
+            "memo": "123"
+          })
+
+    })
+
+
 app.get('/', (req, res) =>{
     res.send('hello world')
 })
