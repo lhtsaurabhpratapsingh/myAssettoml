@@ -48,16 +48,19 @@ app.get('/.well-known/stellar.toml', (req, res, next) => {
 
     app.get('/auth', (req,res)=>{
       res.json({
-        "account":"GCX4SATKSYRTNELBFPH6Q4DC2QMFIZRPSYBBGWFGUE4PITSITZZ3D4SK",
+        "account":"GCRO75HUU4TGKNW5XD2Z7Y6G4QZP5BGKCSRMZGNFX44GRO7II4FA7EKB",
         "home_domain":"lastasset.herokuapp.com",
         "client_domain":"test.org"
 
       })
     })
 
-    app.get('/hello', (req, res) =>{
+    app.get('/FEDERATION_SERVER', (req, res) =>{
         res.json({
-           key: "hello",
+            "stellar_address": "sp@gmail.com*lastasset.herokuapp.com",
+            "account_id": "GCRO75HUU4TGKNW5XD2Z7Y6G4QZP5BGKCSRMZGNFX44GRO7II4FA7EKB",
+            "memo_type": "id",
+            "memo": "123"
           })
 
     })
