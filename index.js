@@ -50,7 +50,7 @@ app.get('/.well-known/stellar.toml', (req, res, next) => {
       res.json({
         "account":"GCRO75HUU4TGKNW5XD2Z7Y6G4QZP5BGKCSRMZGNFX44GRO7II4FA7EKB",
         "home_domain":"lastasset.herokuapp.com",
-        "client_domain":"test.org"
+        "client_domain":""
 
       })
     })
