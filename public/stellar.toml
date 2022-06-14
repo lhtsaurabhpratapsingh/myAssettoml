@@ -7,6 +7,7 @@ WEB_AUTH_ENDPOINT = "https://lastasset.herokuapp.com/auth"
 KYC_SERVER = "https://lastasset.herokuapp.com/kyc"
 DIRECT_PAYMENT_SERVER = "https://lastasset.herokuapp.com/sep31"
 QUOTE_SERVER = "https://lastasset.herokuapp.com/sep38"
+FEDERATION_SERVER="https://lastasset.herokuapp.com/federation"
 [[CURRENCIES]]
 code = "LHTASSET"
 issuer = "GCWQW2BY535VP3CIUNTZNQWKNKTZIJ7DTFGFL54G2RSPKS4Y77JG4RYX"
