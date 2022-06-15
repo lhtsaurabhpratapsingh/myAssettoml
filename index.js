@@ -40,8 +40,10 @@ app.get('/.well-known/stellar.toml', (req, res, next) => {
         },
         "features": {
             "account_creation": true,
-            "claimable_balances": true
-        }
+            "claimable_balances": true,
+            "quotes_supported": true
+        },
+        
     })
     })
     // endpoint
